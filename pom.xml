@@ -5,18 +5,13 @@
     <version>1.0.0</version>
 
     <properties>
-        <java.version>21</java.version> <!--Minestom has a minimum Java version of 21-->
+        <java.version>21</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>net.minestom</groupId>
-            <artifactId>minestom-snapshots</artifactId>
-            <version>1_21_4-7599413490</version> 
-        </dependency>
             <dependency>
                <groupId>org.apache.logging.log4j</groupId>
                <artifactId>log4j-api</artifactId>
@@ -27,8 +22,6 @@
         <artifactId>log4j-core</artifactId>
         <version>2.20.0</version>
     </dependency>
-
-
     </dependencies>
 
     <build>
