@@ -1,6 +1,6 @@
 package com.neon.testplugins;
 
-public class ExamplePluginMain {
+public class Main {
     public void onEnable() {
         System.out.println("[ExamplePlugin] Hello from plugin!");
     }
