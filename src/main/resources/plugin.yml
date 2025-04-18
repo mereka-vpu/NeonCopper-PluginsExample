@@ -1,0 +1,4 @@
+name: ExamplePlugin
+main: com.neon.testplugins.Main
+version: 1.0
+author: Neon
